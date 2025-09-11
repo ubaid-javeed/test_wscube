@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid_container{
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            justify-items: left;
+            /* align-content: center; */
+        }
+        .container{
+            width: 600px ;
+            height: 300px;
+            border: 3px solid red;
+            /* justify-items: center; */
+            /* align-content: center; */
+        }
+        .container__2{
+             width: 600px ;
+            height: 300px;
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid_container">
+        <div class="container">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus corporis beatae saepe!</p>
+        </div>
+        <div class="container__2">
+             <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum expedita doloremque labore!</p>
+        </div>
+    </div>
+</body>
+</html>
